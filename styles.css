@@ -1,6 +1,7 @@
 :root {
     --main-clr: #1992d4;
     --secondary-clr: #facc15;
+    --bg-clr: #e2e8f0;
 }
 
 body { 
@@ -41,7 +42,10 @@ ul {
 }
 
 .header .h-bottom {
+    margin-bottom: 15px;
     height: 50%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 .search {
@@ -56,6 +60,7 @@ input {
     background-color: #e2e8f0;
     border: none;
     border-radius: 50px;
+    text-align: center;
 }
 
 .profile {
@@ -70,6 +75,57 @@ input {
 
 .name {
     font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.profile-pic {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50px; 
+    border: 1px solid black;
+}
+
+.small-container {
+    margin-left:  100px;
+    display: flex;
+}
+
+.info {
+    padding-left: 20px;
+}
+
+.info div {
+    margin: 5px;
+}
+
+.main-pic {
+    width: auto;
+    height: 80px;
+}
+
+.greet, .person-info {
+    font-weight: bold;
+}
+
+.person-info {
+    font-size: 1.7rem;
+}
+
+.container-btn {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-btn button {
+    margin: 30px;
+    width: 100px;
+    padding: 10px;
+    background-color: var(--main-clr);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
     font-weight: bold;
 }
 
