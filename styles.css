@@ -1,6 +1,6 @@
 :root {
     --main-clr: #1992d4;
-    --secondary-clr: #facc15;
+    --secondary-clr: #e9bc52;
     --bg-clr: #e2e8f0;
 }
 
@@ -186,4 +186,33 @@ input {
 .project-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+    min-height: 150px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px;
+    border-radius: 15px;
+    margin: 20px;
+    border-left: 10px solid var(--secondary-clr);
+    overflow: scroll;
+}
+
+.card .heading {
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+.card .description {
+    margin: 5px 59px 5px 0px;
+}
+
+.card .all-icons {
+    width: 100%;
+    text-align: right;
+}
+
+.all-icons i {
+    margin: 10px;
 }
