@@ -4,6 +4,33 @@
     --bg-clr: #e2e8f0;
 }
 
+@media (max-width: 1736px) {
+    .sidebar {
+        opacity: 0;
+        position: absolute;
+    }
+
+    .hero {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 1414px) {
+    .announce {
+        opacity: 0;
+    }
+
+    .trend {
+        opacity: 0;
+        position: absolute;
+    }
+
+    .project {
+        width: 100vw;
+        overflow: none;
+    }
+}
+
 body { 
     padding: 0;
     margin: 0;
